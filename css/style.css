@@ -8,7 +8,8 @@
 }
 nav {
   z-index: 3;
-  background-color: #242423 !important;
+  background-color: rgba(0,0,0,0.0);
+  background:transparent;
 }
 
 @font-face {
@@ -57,13 +58,11 @@ header {
 }
 
 body {
-  background: #E8EDDF;
 }
 
 nav {
   position: fixed;
   top: 0;
-  background-color: #E8EDDF !important;
 }
 
 header {
