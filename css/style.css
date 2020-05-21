@@ -1,0 +1,111 @@
+@media (max-width: 767px) {
+    .navbar{
+        display:none;
+    }
+}
+.no-shadows {
+    box-shadow: none!important;
+}
+nav {
+  z-index: 3;
+  background-color: #242423 !important;
+}
+
+@font-face {
+font-family: "opensans";
+src:
+url("/fonts/opensans-regular-webfont.woff") format("woff"),
+url("/fonts/opensans-regular-webfont.woff2") format("woff2"),
+}
+
+@font-face {
+font-family: "roboto";
+src:
+url("/fonts/roboto-regular-webfont.woff") format("woff"),
+url("/fonts/roboto-regular-webfont.woff2") format("woff2"),
+}
+
+#about {
+  font-family: 'roboto';
+font-weight:normal;
+font-style:normal;
+}
+
+.container{
+    max-width: 100%;
+    width:100%;
+}
+
+.btn , .btn-small, .btn-large{
+    background-color: #CC554D !important;
+}
+
+.page-footer{
+  background-color: #242423 !important;
+}
+
+.nav-wrapper {
+    background-color: #242423 !important;
+  }
+
+header {
+  z-index: 2;
+}
+
+#nav-bg {
+  z-index: 1;
+}
+
+body {
+  background: #E8EDDF;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  background-color: #E8EDDF !important;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  padding: 1em;
+  height: 100vh;
+}
+header:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 65% 50%;
+  opacity: 0.4;
+}
+
+#nav-bg {
+  position: fixed;
+  height: 65px;
+  width: 100%;
+  top: 0;
+
+}
+
+header h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 800;
+  padding-top: 30vh;
+}
+
+
+header p {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 200;
+}
