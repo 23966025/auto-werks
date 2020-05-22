@@ -1,11 +1,22 @@
 @media (max-width: 767px) {
     .navbar{
         display:none;
+          background-color: #242423 !important;
     }
 }
 .no-shadows {
     box-shadow: none!important;
 }
+
+.navbar navbar-transparent {
+  background-color: #ffffff !important;
+}
+
+.nav-wrapper {
+    background-color: #850000 !important;
+    font-size: 14px;
+    font-weight: bold;
+  }
 
 .iframe-container {
   overflow: hidden;
@@ -37,6 +48,7 @@
 nav {
   z-index: 3;
   background-color: rgba(0,0,0,0.0);
+  background-color: #242423 !important;
   background:transparent;
 }
 
@@ -91,6 +103,7 @@ body {
 nav {
   position: fixed;
   top: 0;
+    background-color: #242423 !important;
 }
 
 header {
