@@ -96,17 +96,36 @@
 			</div>
 
 			<div class="input-field col s12">
-				<input id="email2" type="email" class="validate" required="" aria-required="true">
-				<label for="email2">Email</label>
-			</div>
-			<div class="input-field col s12">
-				<input id="example" name="example" type="text" class="validate" required="" aria-required="true">
-				<label for="example">Field</label>
-			</div>
-			</div>
-			<div class="input-field col s12">
 
-				<button class="btn waves-effect waves-light" type="submit" value="send" name="action"> Submit</button>
+				<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-push-2 col-md-push-3 form__container">
+      <form action="https://formspree.io/xnqgjrez" role="form" method="POST" autocomplete="on">
+
+        <div class="form-group">
+          <label for="name"><h6> Your Name</h6></label>
+          <input type="text" name="name" class="form-control form-input" placeholder="Full name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="_replyto"><h6> Your Email</h6></label>
+          <input type="email" name="_replyto" class="form-control form-input" placeholder="Email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message"><h6>Message </h6> </label>
+          <textarea id="message" name="message" class="form-control" rows="4" width="100%" placeholder="Message" required></textarea>
+        </div>
+
+        <div>
+          <input type="submit" class="btn btn-primary" value="Send">
+          <input type="hidden" name="_subject" value="New submission!" />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
 			</div>
 			</div>
 			</form>
